@@ -67,3 +67,5 @@ local file to github  --  git push origin main
     finaly upload into github -- git push origin main
 
     ---------------------------------------------------------------  
+
+creat a new branch using terminals -- git branch branch_name
