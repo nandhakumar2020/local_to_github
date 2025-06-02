@@ -31,11 +31,29 @@ local file to github  --  git push origin main
     folder convert into git  hub reposrertry  --  git init
 
     add all file in staging area  -- git add .    ( this comman modified all file add in staging area).
+    commit it -- git commit -m "message"
 
-    creat new reposrertry in git hub and clone in VS code using -- git clone link
+
+    creat new reposrertry in git hub and clone in VS code using -- git remote add origin created_github_repsretry_link
 
     check the branch name -- git branch
-        the branch is "master "  it can convert  into main -- git remote add origin created_github_repsretry_link
+        the branch is "master "  it can convert  into main -- git branch -M main
     
     upload the folder into github -- git push origin main
-    
+
+
+
+
+
+--> Branch:
+  branch is ah aditionl own changes code file becuse main file contains original code.
+  test modifide code in oru own branch and the modifide is sucessus then merge modifide branchand main branch.
+
+  procedure:
+      check branch in my github -- git branch -a
+      creat a new branch in github
+      update all github changes -- git pull
+      switch branch go to work -- git checkout branch_name
+        -- git add .
+        -- git commit -m "message"
+    upload into git -- git push origin own_branch_name
