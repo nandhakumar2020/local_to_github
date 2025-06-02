@@ -57,3 +57,13 @@ local file to github  --  git push origin main
         -- git add .
         -- git commit -m "message"
     upload into git -- git push origin own_branch_name
+          sucessus fully upload
+
+    then switch to main branch -- git checkout main
+    find diffrence b/w main and own branch -- git diff own_branch_name
+
+    merge own branch in main branch -- git merge own_branch_name
+
+    finaly upload into github -- git push origin main
+
+    ---------------------------------------------------------------  
