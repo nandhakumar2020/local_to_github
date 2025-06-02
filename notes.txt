@@ -1,0 +1,41 @@
+git hub to local reposrertry -- git clone link
+
+open cloned folder  -- cd folder_name
+
+find untracked files -- git status
+
+add untracked file -- git add  file_name
+
+staging area to local github folder  -- git commit -m "message"
+
+local file to github  --  git push origin main
+
+
+
+--> add modified file load into git hub:
+    
+    git add  file_name
+    git commit -m "message"
+    git push origin main
+
+
+--> git hub modified into   update local file :
+
+     git pull  
+       (all are update in modifide web git hub changes)
+
+
+--> procedure for new and worked folder including alredy coded file upload into git hub:
+
+    undo into allredy workable folder -- cd ..
+    folder convert into git  hub reposrertry  --  git init
+
+    add all file in staging area  -- git add .    ( this comman modified all file add in staging area).
+
+    creat new reposrertry in git hub and clone in VS code using -- git clone link
+
+    check the branch name -- git branch
+        the branch is "master "  it can convert  into main -- git remote add origin created_github_repsretry_link
+    
+    upload the folder into github -- git push origin main
+    
